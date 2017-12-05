@@ -1,0 +1,42 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+nav ul{
+  flex-wrap: wrap;
+  min-width: 180px;
+  margin-right: 10px;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a{
+  text-decoration: underline;
+}
+
+#logopic{
+  flex-shrink: 0;
+  height: 50px;
+  margin-left: 10px;
+}

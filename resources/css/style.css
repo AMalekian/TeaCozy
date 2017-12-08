@@ -9,7 +9,6 @@ body{
 }
 
 /* HEADER */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -116,6 +115,7 @@ h2, h4{
   height: 500px;
   width: 1200px;
   text-align: center;
+  padding-bottom: 0;
 }
 
 .locs{
@@ -146,12 +146,15 @@ h2, h4{
 #contact{
   background-color: black;
   height: 200px;
-  padding-bottom: 20px;
+  width: 100%;
 }
+
 
 /* FOOTER */
 footer{
+  position: relative;
+  left: 20px;
   text-align: left;
-  margin-left: 20px;
-  padding-top: 20px;
+  margin-top: 70px;
+  min-width: 300px;
 }
